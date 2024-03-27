@@ -1,4 +1,5 @@
 # Read Me
+GitHub Repository of Levin Schöpfer, used for the course Data Science Fundamentals for Chemists and Biochemists, 2024.
 
 ## Content of course:
 - Python Scritping Basics
