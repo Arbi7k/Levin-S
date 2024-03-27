@@ -1,6 +1,6 @@
-##Read Me
+## Read Me
 
-##Content of course:
+## Content of course:
 - Python Scritping Basics
 - Reading and editing files using Panadas
 - Indexing and calculations using Numpy
