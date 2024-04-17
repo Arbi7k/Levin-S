@@ -1,0 +1,37 @@
+# HPC_documentation
+
+## 1. Modifying Code
+Certain parts of the code had to be removed or altered since we cannot use print functions on the HPC. 
+Therefore the whole generation of the plot can be deleted and instead just save the generated weights in a file "called best_weights.weights.h5"
+Furthermore, we changed the path to the training set to the original one which was given in the projectdetails.pdf.
+The code was saved in a file called "job.py" and executed in a virtual environment on our computer.
+
+
+## 2. Necessary Files
+The HPC needs three files in order to process the job:
+
+the Python script "job.py"
+the necessary modules "packages.txt"
+and a bash script for submitting the job "submit.sh"
+
+In order to make the required Python packages available for the HPC one can save them directly from the virtual environment into a list using a command like:
+python -m pip freeze > packages.txt
+
+The bash script was copied from the UBELIX documentation and complemented with some Slurm directives to load the Python module, activate the virtual environment, and ultimately execute the script. 
+
+The files were saved in a new directory called on the user called "dic01" by copying them into nano.
+
+
+## 3. Executing the job
+A virtual environment had to be created in the directory, using the command:
+python -m venv ENV
+
+Now the job can be submitted using the command:
+batch submit.sh
+
+## 4. Downloading the Result
+To facilitate the transfer of our generated results, we used the application Filezilla.
+
+
+
+
