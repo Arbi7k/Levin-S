@@ -1,11 +1,8 @@
 # Read Me
-GitHub Repository of Levin Schöpfer, used for the course Data Science Fundamentals for Chemists and Biochemists, 2024.
+Half Semester Project of the course Data Science Fundamentals
+This project was done with Levin Scyale together
 
-## Content of course:
-- Python Scritping Basics
-- Reading and editing files using Panadas
-- Indexing and calculations using Numpy
-- Dataframe evaluation using Matplotlib library
 
-## Link to Repository:
+## Link to Main Repository:
+Here are all the exercises solved and worked out:
 [Main Repository](https://github.com/sigvehaug/DSF-DCBP/tree/main)
